@@ -1,0 +1,33 @@
+.btn {
+  background-color: #2583c7;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+  transition: background-color 250ms;
+  width: auto;
+}
+.btn:hover:not(.btn-disabled) {
+  background-color: #1e6498;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-color: #2583c7;
+  color: #2583c7;
+}
+.btn-secondary:hover:not(.btn-disabled) {
+  border-color: #1e6498;
+  color: #fff;  
+}
+
+.btn-disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}

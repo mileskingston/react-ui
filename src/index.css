@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  max-width: 970px;
+}
+
+.section {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.sep {
+  margin-bottom: 15px;
+}
+.sep:last-child {
+  margin-bottom: 0;
+}
